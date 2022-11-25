@@ -1,0 +1,225 @@
+*{
+    font-family: 'Rubik', sans-serif;
+   scroll-behavior: smooth;
+ 
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:0%;
+
+}
+.overlay{
+    position:absolute;
+    background: rgba(10, 3, 3, 0.486);
+    height: 120.5%;
+    width: 99%;   
+}
+.nav{
+    position: fixed;
+    background-color: rgb(49, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+  z-index: 100;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 40px;
+    color: white;
+    right: 20px;
+    margin-right: 10px; 
+    margin-left: 20px;
+    margin-bottom: 10px;
+  
+  
+}
+.nav-links li a:hover{
+    color: black;
+    transition: 2s;
+    background: rgb(238, 234, 234);
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto;
+}
+
+.nav img{
+    width: 100px;
+    height: 100px; 
+}
+
+
+.meat-content{
+    
+    background:none;
+    padding:50px;
+    font-size: 30px;
+    position: absolute;
+    color: rgb(243, 35, 8);
+    z-index: 1;
+    top: 300px;
+    left: 40%;
+    
+
+}
+
+.meat-content p a{ 
+    text-decoration: none;
+    border: solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    color: rgb(250, 237, 237);
+    align-items: center;
+    margin-left: 90px;
+    
+}
+.meat-content p a:hover{
+    color: black;
+    transition: 2s;
+    background: red;
+    cursor: pointer;
+}
+.container-offers{
+  background-color: rgb(112, 41, 41);
+  width: 100%;
+}
+.offers img{
+    border-radius: 10px;
+    width: 420px;
+    box-shadow: 5px 10px 18px #140a0a;
+}
+.offers{
+    
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    width: auto;
+    margin-top: 30px;
+}
+.offers h1{
+    display: flex;
+    text-align: center;
+}
+.offers p{
+    color: rgba(10, 8, 8, 0.897);;
+     
+    padding: 10px 50px;
+    margin: 10px 500px;
+    font-size: 20px;
+}
+.yow{
+    display: flex;
+    text-align: center;
+    color: rgb(243, 23, 23);
+    background-color: rgb(15, 12, 12);
+    padding-left: 47%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(112, 41, 41);
+    max-width: auto;
+    min-height: 500px
+    ;
+      
+    
+}
+.menu-col{
+
+    flex-basis: 31%;
+    background:rgb(68, 12, 12);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+} 
+.menu-col p{
+    color: rgba(240, 230, 230, 0.76);
+    padding: 10px;
+  
+
+}
+
+.row img{
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+}
+.aboutus{
+  display: block;
+    margin-top: 0px;
+    padding-top: 60px;
+   text-align: center;
+   background-color: #302e2e;
+   padding-bottom: 20px;
+  
+}
+.aboutus p{
+    color: white;
+    margin-bottom: 0px;
+    
+}
+.aboutus img{
+    width: 50px;
+    border-radius: 10px;
+
+}
+
+.aboutus h1{
+    color: red;
+    font-weight: normal;
+    margin-top: 0px;
+}
+.input-form{
+
+    background: none;
+    border: none;
+    border: 1px solid rgb(197, 193, 201);
+    width: 720px;
+    margin: 10px 0px;
+    color: rgb(240, 18, 18);
+    border-radius: 5px; 
+    padding: 10px;
+}
+.input-textarea{ background: none;
+    border: none;
+    border: 1px solid rgb(230, 233, 233);
+    width: 720px;
+    margin: 10px 0px;
+    color: rgb(240, 18, 18);
+    border-radius: 5px;
+    padding: 10px;
+}
+.submit-btn{
+
+   color: rgb(5, 3, 3);
+   border-radius: 10px;
+   width: auto;
+    padding: 10px;
+    margin-top: 30px;
+    align-items: center;
+   
+}
+.footer{
+    color: white;
+    background-color: rgba(39, 34, 18, 0.534);
+    width: 0px 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+
